@@ -3,6 +3,14 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@auth/*"    :["src/app/auth/*"],
+      "@core/*"    :["src/app/core/*"],
+      "@env/*"     :["src/app/enviroments/*"],
+      "@layout/*"  :["src/app/layout/*"],
+      "@main/*"    :["src/app/main/*"],
+      "@shared/*"  :["src/app/shared/*"]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
